@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="first table.css">
+        <title>Sign up form</title>
+    </head>
+    <body>
+        <form class="signup-form">
+            <div class="form-header">
+                <h1>Create Account</h1>
+            </div>
+            <div class="form-body">
+                <div class="row">
+                    <div class="input-group">
+                        <lable>First name</lable>
+                        <input type="text" placeholder="Enter your first name">
+                    </div>
+                    <div class="input-group"><lable>Last name</lable>
+                        <input type="text" placeholder="Enter your last name">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-group">
+                        <lable>Email</lable>
+                        <input type="text" placeholder="enter your Email">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-group">
+                        <label>password*</label>
+                        <input type="password" placeholder="Enter your password">
+                    </div>
+                    <div class="input-group">
+                        <label>Enter your password again*</label>
+                        <input type="password"
+                            placeholder="Enter your password again">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-group">
+                        <label>Gender</label>
+                        <div class="radio-group">
+                            <div>
+                                <label>
+                                    <input type="radio" name="gender">
+                                    Male
+                                </label>
+                            </div>
+                            <div>
+                                <label>
+                                    <input type="radio" name="gender">
+                                    Female
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="input-group">
+                            <label>Hobbies</label>
+                            <div class="checkbox-group">
+                                <div>
+                                    <label>
+                                        <input type="checkbox">
+                                        music
+                                    </label>
+                                </div>
+                                <div>
+                                    <label>
+                                        <input type="checkbox">
+                                        sports
+                                    </label>
+                                </div>
+                                <div>
+                                    <label>
+                                        <input type="checkbox">
+                                        travel
+                                    </label>
+                                </div>
+                                <div>
+                                    <label>
+                                        <input type="checkbox">
+                                        movies
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-group">
+                            <label>Sourse of income</label>
+                            <select>
+                                <option>Employee</option>
+                                <option>Unemployee</option>
+                                <option>Manager</option>
+                            </select>
+                        </div>
+                        <div class="input-group"></div>
+                            <label>
+                                Income
+                            </label>
+                            <div class="range-group">
+                                <input type="range" min="20" max="200"
+                                    step="5">
+                                <label id="income-label">20K</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-group">
+                                <label>
+                                    Upload profile picture</label>
+                                <input type="file">
+                            </div>
+                            <div class="input-group">
+                                <label>age</label>
+                                <input type="number">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-group">
+                                <label>bio</label>
+                                <textarea></textarea>
+                            </div>
+                        </div>
+                        <div class="form-footer">
+                            <button class="btn">Create</button>
+                        </div>
+                    </form>
+                </body>
+            </html>

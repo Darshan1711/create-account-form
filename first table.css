@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: #78a7ba;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+.singnup-form{
+    background-color: aliceblue;
+    max-width: 600px;
+    flex: 1;
+    border-radius: 10px;
+}
+
+.form-header{
+    border-bottom: 1px solid white;
+    padding: 15px 0;
+    background-color: #EFF0F2;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.form-header h1{
+    text-align: center;
+    font-size: 25px;
+    color: #6B645C;
+}
+.form-body{
+    background-color: white;
+    padding: 5px 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.row{
+    display: flex;
+    margin: center;
+}
+.input-group{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 5px 5px;
+}
+label{
+    color: #1bba93;
+    font-size: 16px;
+}
+input[type="text"],
+input[type="email"]
+input[type="password"],
+select,
+input[type="file"],
+input[type="number"],
+textarea{
+    width: 100%;
+    font-size: 15px;
+    height: 20px;
+    color: #666;
+    border: 1px solid #d6d6d6;
+    border-radius: 2px;
+    background: white;
+    outline: none;
+}
+.radio-group,
+.checkbox-group{
+    display: flex;
+}
+.radio-group div{
+    flex: 1px;
+}
+.range-group{
+    display: flex;
+}
+
+.range-group input{
+    flex: 1px;
+}
+textarea{
+    resize: none;
+    height: 100px;
+}
+.form-footer{
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: #1bba93;
+    font-size: 17px;
+    border: none;
+    border-radius: 15px;
+    color: #bcf5e7;
+    cursor: pointer;
+}
